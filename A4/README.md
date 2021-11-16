@@ -35,9 +35,7 @@ For example,
 
 hopping_game(1) returns [“0-1”]  # meaning one path jumping from start 0 to square 1
 
-hopping_game(2) returns ['0-1-2', '0-2']  # meaning two paths, jumping from start 0 to square 1 and then to square 2, 
-
-                                                               # or jumping from start 0 to square 2
+hopping_game(2) returns ['0-1-2', '0-2']  # meaning two paths, jumping from start 0 to square 1 and then to square 2, # or jumping from start 0 to square 2
 
 hopping_game(3) returns ['0-1-2-3', '0-2-3', '0-1-3']
 
